@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CalculationOfFigureApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CalculationOfShapesApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -167,7 +167,7 @@
         <!--Branch View Controller-->
         <scene sceneID="SCN-rv-gzF">
             <objects>
-                <viewController id="0F7-Os-eaZ" customClass="BranchViewController" customModule="CalculationOfFigureApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0F7-Os-eaZ" customClass="BranchViewController" customModule="CalculationOfShapesApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nEX-aB-vQF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -260,7 +260,7 @@
         <!--Calculations View Controller-->
         <scene sceneID="dCK-wG-mSG">
             <objects>
-                <viewController id="PQ0-Ae-D9V" customClass="CalculationsViewController" customModule="CalculationOfFigureApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="PQ0-Ae-D9V" customClass="CalculationsViewController" customModule="CalculationOfShapesApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vTh-vO-Ca1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
