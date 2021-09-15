@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  CalculationOfShapesApp
+//  CalculationOfFigureApp
 //
-//  Created by Izyumets Aleksandr on 15.09.2021.
+//  Created by Izyumets Aleksandr on 12.09.2021.
 //
 
 import UIKit
@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+ 
+    
 }
 
