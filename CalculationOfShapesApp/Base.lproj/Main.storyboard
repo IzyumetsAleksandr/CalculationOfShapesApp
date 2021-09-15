@@ -15,16 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vPb-yd-pB8">
-                                <rect key="frame" x="16" y="75" width="288" height="32"/>
-                                <segments>
-                                    <segment title="FLAT FIGURE"/>
-                                    <segment title="VOLUME FIGURE"/>
-                                </segments>
-                                <connections>
-                                    <segue destination="0F7-Os-eaZ" kind="presentation" modalPresentationStyle="fullScreen" id="naW-0K-GTs"/>
-                                </connections>
-                            </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the figure`s type" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8a-MT-1A0">
                                 <rect key="frame" x="16" y="146" width="288" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -40,9 +30,6 @@
                                         <state key="normal" title="Square">
                                             <color key="titleColor" red="0.36155033959031391" green="0.4334556502525253" blue="0.2487193288353044" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="j4p-4t-qbF" kind="presentation" modalPresentationStyle="fullScreen" id="Vtd-wz-Gih"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEf-wB-jye">
                                         <rect key="frame" x="0.0" y="46" width="88" height="36"/>
@@ -74,17 +61,35 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="3Ra-3i-rYg">
+                                <rect key="frame" x="137" y="40" width="46" height="78"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="szZ-sz-5nq">
+                                        <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="0F7-Os-eaZ" kind="presentation" modalPresentationStyle="fullScreen" id="Ycf-y9-M4i"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqz-Ao-aC0">
+                                        <rect key="frame" x="0.0" y="48" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="j4p-4t-qbF" kind="presentation" modalPresentationStyle="fullScreen" id="7LI-KX-wJg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.83723919010000003" green="0.86087566609999999" blue="0.72187379370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="vPb-yd-pB8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="KB1-a9-OKQ"/>
-                            <constraint firstItem="vPb-yd-pB8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="NKJ-1m-8jd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vPb-yd-pB8" secondAttribute="trailing" constant="16" id="Ui6-5M-15G"/>
+                            <constraint firstItem="3Ra-3i-rYg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZZl-Hu-wzQ"/>
+                            <constraint firstItem="3Ra-3i-rYg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="cGJ-jt-die"/>
                             <constraint firstItem="W8a-MT-1A0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="d21-lW-2lC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W8a-MT-1A0" secondAttribute="trailing" constant="16" id="e14-Aq-FQT"/>
-                            <constraint firstItem="Uec-qv-36R" firstAttribute="top" secondItem="W8a-MT-1A0" secondAttribute="bottom" constant="50" id="laI-pW-jCo"/>
-                            <constraint firstItem="W8a-MT-1A0" firstAttribute="top" secondItem="vPb-yd-pB8" secondAttribute="bottom" constant="40" id="tnN-Fh-o9T"/>
+                            <constraint firstItem="Uec-qv-36R" firstAttribute="top" secondItem="W8a-MT-1A0" secondAttribute="bottom" constant="50" id="jBj-FU-zxc"/>
+                            <constraint firstItem="W8a-MT-1A0" firstAttribute="top" secondItem="3Ra-3i-rYg" secondAttribute="bottom" constant="28" id="ogx-Ar-KFP"/>
                             <constraint firstItem="Uec-qv-36R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zkp-6k-6C4"/>
                         </constraints>
                     </view>
