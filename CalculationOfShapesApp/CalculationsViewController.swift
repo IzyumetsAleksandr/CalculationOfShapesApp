@@ -1,28 +1,20 @@
 //
 //  CalculationsViewController.swift
-//  CalculationOfFigureApp
+//  CalculationOfShapesApp
 //
-//  Created by Andrey Ovchinnikov on 14.09.2021.
+//  Created by Andrey Ovchinnikov on 15.09.2021.
 //
 
 import UIKit
 
 class CalculationsViewController: UIViewController {
-    
-    @IBOutlet var textFieldOutlet: UITextField!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //simple3
-        //simple4
-        
+       
     }
     
-    @IBAction func cancelButtonPressed() {
-        dismiss(animated: true)
-    }
-    
-   
+
 
 }
